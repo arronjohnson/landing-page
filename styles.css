@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+button {
+  background-color: #3882f6;
+  border: 0;
+  border-radius: 8px;
+  color: #f9faf8;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 8px 32px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+/* Section 1: Nav & Hero */
+.section-one {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 16px;
+}
+
+header, .hero {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20%;
+}
+
+.hero {
+  align-items: stretch;
+  padding: 100px 0;
+}
+
+#hero-left {
+  margin-right: 36px;
+  text-align: left;
+}
+
+#hero-right {
+  align-items: center;
+  background-color: #6d747d;
+  display: flex;
+  justify-content: center;
+  flex: 1 0 50%;
+}
+
+/* Text Styles */
+.hero-text-logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.hero-text-main {
+  font-size: 48px;
+  font-weight: 900;
+}
