@@ -45,9 +45,14 @@ a {
   font-weight: 900;
 }
 
-.info-text {
+.info-text-main {
   font-size: 36px;
   font-weight: 900;
+}
+
+.info-box p {
+  color: #4f5966;
+  font-size: 14px;
 }
 
 /* Section 1: Nav & Hero */
@@ -80,6 +85,34 @@ header, .hero {
   display: flex;
   justify-content: center;
   flex: 1 0 50%;
+}
+
+/* Section 2: Images & Information */
+.section-two {
+  align-items: center;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 3em 0;
+}
+
+.info-container {
+  display: flex;
+  gap: 42px;
+  margin-bottom: 48px;
+}
+
+.info-box {
+  text-align: center;
+  width: 140px;
+}
+
+.info-image {
+  border: 3.5px solid #3882f6;
+  border-radius: 8px;
+  height: 140px;
+  margin-bottom: 8px;
 }
 
 /* Footer */
